@@ -16,7 +16,7 @@
     },
      "PREFIX": {
       "description": "set your bot prefix here ex:- '!' "
-     },
+    },
     "AUTHOR": {
       "description": "set your bot author name here"
     },

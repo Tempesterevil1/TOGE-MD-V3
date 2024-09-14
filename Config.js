@@ -48,8 +48,15 @@ global.mess = {
     wait: '💫 *hello senpai, in process...* ',    
     error: '💫 *hello senpai, there seems to be an error!*',
 }
+module.exports = {
+ownernumber: global.ownernumber,
+ownername: global.ownername,
+AUTO_BLOCK : process.env.PM_BLOCKER,
+STATUS_SAVER : "true",
+ANTI_BOT:"false",
+}
 
-global.thumb = fs.readFileSync('./Media/thumb.jpg')
+global.thumb = fs.readFileSync('./lib/Assets/thumb.jpg')
 
 let file = require.resolve(__filename)
 fs.watchFile(file, () => {
